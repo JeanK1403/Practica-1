@@ -9,6 +9,8 @@ and open the template in the editor.
         <title>Practica 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./layout.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
     </head>
     <body>
         <div id="Container">
@@ -17,24 +19,49 @@ and open the template in the editor.
                     Kitten Karen
                 </h1>
             </header>  
-            <nav>
+            <nav id="nav1">
                 <ul>
-                    <li><h2>Home</h2></li>
-                    <li><h2>About</h2></li>
-                    <li><h2>Services</h2></li>
+                    <li><a><h2>Home</h2></a></li>
+                    <li><a><h2>About</h2></a></li>
+                    <li><a><h2>Services</h2></a></li>
                 </ul>
             </nav>
             <article>
-                <h3>
+                <h2>
                     Welcome!
-                </h3>
+                </h2>
+                <img id="image" src="Image\img.jpg"/>
+                <p> Media queries allow us to target specific CSS
+                    styles depending upon the display capabilities of a
+                    device. For example, with just a few lines of CSS
+                    we can change the way content displays based
+                    upon things such as viewport width, screen aspect
+                    ratio, orientation (landscape or portrait), and so on.
+                
+                All HTML elements can be considered as boxes. In
+                CSS, the term "box model" is used when talking about
+                design and layout.
+                The CSS box model is essentially a box that wraps
+                around HTML elements, and it consists of: margins,
+                borders, padding, and the actual content.
+                </p>
             </article>
             <aside>
-                <h3>
+                <h2>
                     Cat Body Type
-                </h3>
-                
+                </h2>
+                <ul>
+                    <li><h3>Oriental</h3></li>
+                    <li><h3>Foreign</h3></li>
+                    <li><h3>Semi-Foreign</h3></li>
+                    <li><h3>Semi-Cobby</h3></li>
+                    <li><h3>Cobby</h3></li>
+                </ul>
             </aside>
+            
+            <footer>
+                
+            </footer>
         </div>
     </body>
 </html>

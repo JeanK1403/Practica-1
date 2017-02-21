@@ -1,0 +1,14 @@
+article{
+    float: left;
+    width: 50%;
+}
+aside{
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px){
+article, aside{
+    width: 100%;
+}
+}
